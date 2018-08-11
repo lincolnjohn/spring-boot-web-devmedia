@@ -1,4 +1,4 @@
-package br.edu.thot.Service;
+package br.edu.thot.service;
 
 import br.edu.thot.dao.PlaylistDao;
 import br.edu.thot.domain.PlayList;
