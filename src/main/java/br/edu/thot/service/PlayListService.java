@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface PlayListService {
 
-    void slavar(PlayList playList);
+    void salvar(PlayList playList);
     List<PlayList> recuperar();
     PlayList recuperarPorId(Long id);
     void atualizar(PlayList playList);

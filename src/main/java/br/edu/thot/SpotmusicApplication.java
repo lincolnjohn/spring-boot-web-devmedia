@@ -9,4 +9,5 @@ public class SpotmusicApplication {
     public static void main(String[] args){
         SpringApplication.run(SpotmusicApplication.class,args);
     }
+
 }

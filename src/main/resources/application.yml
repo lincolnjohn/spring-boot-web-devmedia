@@ -4,6 +4,10 @@ spring:
       username: root
       password: admin
       driver-class-name: com.mysql.jdbc.Driver
+
   jpa:
-      show_sql: true
-      auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        hbm2ddl:
+          auto: update

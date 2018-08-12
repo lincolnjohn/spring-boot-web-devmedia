@@ -16,7 +16,7 @@ public class PlayListServiceImpl implements PlayListService {
     private PlaylistDao playlistDao;
 
     @Override
-    public void slavar(PlayList playList) {
+    public void salvar(PlayList playList) {
 
         playlistDao.salvar(playList);
 
